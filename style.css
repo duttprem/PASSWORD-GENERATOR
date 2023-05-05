@@ -1,0 +1,44 @@
+body {
+    background-color: azure;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+}
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    text-align: center;
+    margin: 3.5rem auto;
+    background-color: rgb(99, 91, 91);
+    padding: 2rem;
+    box-shadow: rgba(51, 231, 27, 0.2) 0px 7px 29px 0px;
+}
+#generate-button {
+    width: 200px;
+    height: 30px;
+    font-weight: 500;
+    border-radius: 5px;
+   padding: 0.5rem auto;
+   font-size: 1rem;
+   background-color: rgb(29, 74, 221);
+   color: #fff;
+  cursor: pointer;
+ border: none;
+ margin: 10px;
+}
+
+#password-input {
+    width: 200px;
+    height: 30px;
+    font-weight: 500;
+    border-radius: 5px;
+   padding: 0.5rem auto;
+   font-size: 1rem;
+   border: 1px solid #fff;
+}
